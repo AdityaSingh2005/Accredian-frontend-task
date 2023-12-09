@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(182, 221, 255, 0.31);
+}
+
+.login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: whitesmoke;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.24);
+    margin: 50px;
+    border-radius: 7px;
+    width: 550px;
+    transition: width 0.5s ease;
+}
+
+.login-head{
+   font-family: 'Mukta', sans-serif;
+
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #1670BE;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type=password]:hover{
+    margin-bottom: 10px;
+}
+
+input[type=email]:hover, input[type=password]:hover {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    border: 1px solid #1670BE;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border: 1px solid #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.btn{
+    background-color:rgb(127, 192, 249);
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0px;
+    border: none;
+    cursor: pointer;
+    width: 85%;
+}
+
+.btn{
+   border-radius: 3px;
+   font-family: 'Mukta', sans-serif;
+   font-size: 18px;
+}
+
+.btn:hover{
+   border-radius: 3px;
+   border: none;
+   transition: ease-in;
+   background-color: rgb(147, 203, 253);
+   color: white;
+   transition: background-color 0.4s ease;
+  }
+
+  @media screen and (max-width:610px) {
+    .login{
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    .login{
+        width: 400px;
+    }
+  }
+  @media screen and (max-width:470px) {
+    .login{
+        width: 350px;
+    }
+  }
+
+  @media screen and (max-width:400px) {
+    .login{
+        width: 320px;
+    }
+  }
+
+  @media screen and (max-width:360px) {
+    .login{
+        width: 270px;
+    }
+  }

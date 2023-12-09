@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+   font-family: 'Mukta', sans-serif;
+}
+
+.login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border: whitesmoke;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.24);
+    margin-top: 50px;
+    border-radius: 7px;
+    width: 750px;
+    transition: width 0.5s ease;
+}
+
+.login-head{
+   font-family: 'Mukta', sans-serif;
+
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #1670BE;
+}
+
+input[type=email], input[type=password] , input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+
+input[type=email]:hover, input[type=password]:hover, input[type=text]:hover {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    border: 1px solid #1670BE;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border: 1px solid #1670BE;
+    outline-offset: 0px;
+    outline: none;
+}
+
+.btn{
+    background-color:rgb(127, 192, 249);
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.btn{
+   border-radius: 3px;
+   font-family: 'Mukta', sans-serif;
+   margin-left: 40px;
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.btn:hover{
+   border-radius: 3px;
+   border: none;
+   transition: ease-in;
+   background-color: rgb(147, 203, 253);
+   color: white;
+   transition: background-color 0.4s ease;
+}
+
+.top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+  @media screen and (max-width:710px) {
+    .login{
+        width: 550px;
+    }
+  }
+
+  @media screen and (max-width:620px) {
+    .login{
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width:550px) {
+    .login{
+        width: 460px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .login{
+        width: 350px;
+    }
+  }
+
+
+  @media screen and (max-width:600px) {
+    .login{
+        width: 380px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+    }
+    .btn{
+        margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width:360px) {
+    .login{
+        width: 300px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+    }
+    .email{
+        margin: 2px;
+    }
+    .btn{
+        margin-left: 0px;
+    }
+  }

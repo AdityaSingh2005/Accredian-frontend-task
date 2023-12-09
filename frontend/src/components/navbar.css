@@ -1,0 +1,34 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 50px;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  
+  .logo-container {
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 100%;
+  }
+  
+  .vertical-line {
+    height: 30px; /* Set the desired height for the vertical line */
+    width: 2.5px;
+    background-color: #000000;
+    margin: 0 10px;
+  }
+  
